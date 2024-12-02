@@ -1,0 +1,60 @@
+.text-box {
+  background-color: var(--text);
+  width: 60%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  border-radius: 510px;
+  transition: 0.5s;
+}
+.text-box h2 {
+  color: var(--background);
+  font-size: 32px;
+  font-weight: 400;
+  letter-spacing: 8px;
+  transform: translateX(8px);
+  line-height: 72px;
+  transition: 0.5s;
+}
+.text-box p {
+  color: var(--background);
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 32px;
+  transition: 0.5s;
+}
+.browse-btn {
+  font-weight: 400;
+  color: var(--background);
+  display: inline-block;
+  text-decoration: none;
+  border: 3px solid var(--background-5);
+  padding: 12px 34px;
+  margin-top: 32px;
+  font-size: 16px;
+  background: transparent;
+  position: relative;
+  cursor: pointer;
+  letter-spacing: 2px;
+  transition: 0.5s;
+}
+.browse-btn:hover {
+  border: 3px solid var(--background-4);
+  border-radius: 20px;
+  background: var(--background-4);
+}
+
+
+/* main {
+  background:
+    linear-gradient(
+    rgba(0, 0, 0, 0.3), 
+    rgba(0, 0, 0, 0.000001)
+  );
+} */

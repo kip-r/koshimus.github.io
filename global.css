@@ -1,0 +1,34 @@
+:root {
+  --text: #fff;
+  --text-2: #FFFDE7;
+  --text-3: #fffbd0;
+  --background: #022527;
+  --background-2: #08959d;
+  --background-3: #0AC1CB;
+  --background-4: #0cd9e4;
+  --background-5: #0ef3ff;
+  --grey: #202020;
+  --grey-2: #141414;
+  --purple: #a436ff;
+  --purple-2: #642499;
+  --purple-3: #4e1d77;
+  --red: #ff4d4d;
+  --red-2: #e12f2f;
+  --yellow: #ccbb00;
+  --yellow-2: #b3a400;
+  --green: #82ff62;
+  --green-2: #57a843;
+}
+
+* {
+  font-family: "Poppins";
+  font-variant-ligatures: no-common-ligatures;
+  color: var(--text-2);
+  margin: 0;
+  padding: 0;
+  cursor: default;
+}
+
+body {
+  background: var(--background);
+}
